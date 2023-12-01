@@ -1,0 +1,41 @@
+h1{
+    font-family:arial;
+    color:white;
+    text-align: center;
+}
+body{
+background-color: black;
+}
+nav{
+    text-align: center;
+}
+p{
+    color:white;
+    font-size: 18px;
+}
+li{
+    display:inline;
+    color:white;
+    font:30px Monospace;
+}
+a{
+    color: #ffffff;
+    transition:color .15s ease-in-out, box-shadow .6s ease-in-out;
+}
+div{
+margin:auto;
+}
+
+a:visited{
+    color:inherit;
+}
+li:hover{
+    box-shadow: inset 200px 0 0 0 #73867a;
+    color:white;
+}
+.content{
+    border: 3px solid white;
+    height:fit-content;
+    width:400px;
+    text-align: center;
+}
