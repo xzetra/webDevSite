@@ -19,8 +19,7 @@ li{
     font:30px Monospace;
 }
 a{
-    color: #ffffff;
-    transition:color .15s ease-in-out, box-shadow .6s ease-in-out;
+    text-decoration: none;
 }
 div{
 margin:auto;
@@ -29,7 +28,9 @@ margin:auto;
 a:visited{
     color:inherit;
 }
-li:hover{
+li.hover:hover{
+    color: #ffffff;
+    transition:color .15s ease-in-out, box-shadow .6s ease-in-out;
     box-shadow: inset 200px 0 0 0 #73867a;
     color:white;
 }
