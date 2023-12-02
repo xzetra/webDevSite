@@ -5,6 +5,9 @@ h1{
 }
 body{
 background-color: black;
+border: 2px solid white;
+border-top-width: 20px;
+margin: auto;
 }
 nav{
     text-align: center;
