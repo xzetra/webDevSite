@@ -73,3 +73,11 @@ table,th,td{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
+label{
+    font-size:18px !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+}
+form{
+    text-align: left;
+    width:300px;
+}
